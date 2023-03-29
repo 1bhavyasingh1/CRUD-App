@@ -1,0 +1,36 @@
+  const usersCollectionRef = collection();
+You can have multiple users in your firestore database
+
+
+
+
+
+
+
+Firestore is a noSQL database 
+Similar to MongoDB or DynamoDB which means that it is based on SQL
+A collection in Firestone is same as a table in SQL
+
+
+
+
+
+
+
+
+...doc.data() this will return the name and the age
+data.docs to access the documents inside of it
+
+
+
+
+
+
+
+
+
+
+<input placeholder='name' onChange={(event) => { setnewName(event.target.value) }} />
+Whenever there's any change in thin input
+we got to grab the event from the input 
+and we create a function that sets the newName equal to the value given as the input
